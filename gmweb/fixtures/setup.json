@@ -1,0 +1,1426 @@
+[
+  {
+    "model": "gm.categoria",
+    "pk": 1,
+    "fields": {
+      "nombre": "BASIC"
+    }
+  },
+  {
+    "model": "gm.categoria",
+    "pk": 2,
+    "fields": {
+      "nombre": "MEDIUM"
+    }
+  },
+  {
+    "model": "gm.categoria",
+    "pk": 3,
+    "fields": {
+      "nombre": "ADVANCED"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 1,
+    "fields": {
+      "nombre": "AFTER EFFECTS",
+      "descripcion": "Es una aplicación que tiene forma de estudio destinado para la creación o aplicación en una composición, así como realización de gráficos profesionales en movimiento , de montaje de vídeo y de efectos especiales audiovisuales, que desde sus raíces han consistido básicamente en la superposición de capas. Adobe After Effects es uno los softwares basados en línea de tiempo más potentes del mercado junto con Autodesk Combustion y Eyeon Fusion.",
+      "categoria": 1,
+      "company": "Adobe",
+      "aniocreacion": 1994,
+      "ultimaversion": "12.0.0",
+      "link": "http://www.adobe.com/es/products/aftereffects.html",
+      "imagen1": "imagenes1/aftereffects_1.jpg",
+      "imagen2": "imagenes2/aftereffects_1.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 2,
+    "fields": {
+      "nombre": "ANDROID",
+      "descripcion": "Android es un sistema operativo basado en el kernel de Linux. Fue diseñado principalmente para dispositivos móviles con pantalla táctil, como teléfonos inteligentes o tablets; y también para relojes inteligentes, televisores y automóviles. Inicialmente fue desarrollado por Android Inc., empresa que Google respaldó económicamente y más tarde, en 2005, compró. ",
+      "categoria": 3,
+      "company": "Google",
+      "aniocreacion": 2007,
+      "ultimaversion": "5.0.2",
+      "link": "http://www.android.com/",
+      "imagen1": "imagenes1/ANDROID.jpg",
+      "imagen2": "imagenes2/ANDROID.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 3,
+    "fields": {
+      "nombre": "CENTOS",
+      "descripcion": "CentOS (Community ENTerprise Operating System) es una bifurcación a nivel binario de la distribución Linux Red Hat Enterprise Linux RHEL, compilado por voluntarios a partir del código fuente liberado por Red Hat. Es un sistema operativo de código abierto, basado en la distribución Red Hat Enterprise Linux, operándose de manera similar, y cuyo objetivo es ofrecer al usuario un software de clase empresarial gratuito. Se define como robusto, estable y fácil de instalar y utilizar. Desde la versión 5, cada lanzamiento recibe soporte durante diez años, por lo que la actual versión 7 recibirá actualizaciones de seguridad hasta el 30 de junio de 2024.",
+      "categoria": 2,
+      "company": "CentOS Development Team",
+      "aniocreacion": 2004,
+      "ultimaversion": "7.0.1406",
+      "link": "http://www.centos.org/",
+      "imagen1": "imagenes1/CENTOS.jpg",
+      "imagen2": "imagenes2/CENTOS.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 4,
+    "fields": {
+      "nombre": "CSS3",
+      "descripcion": "Hoja de estilo en cascada o CSS (siglas en inglés de cascading style sheets) es un lenguaje usado para definir la presentación de un documento estructurado escrito en HTML o XML2 (y por extensión en XHTML). El World Wide Web Consortium (W3C) es el encargado de formular la especificación de las hojas de estilo que servirán de estándar para los agentes de usuario o navegadores.",
+      "categoria": 2,
+      "company": "World Wide Web Consortium",
+      "aniocreacion": 1996,
+      "ultimaversion": "css3",
+      "link": "",
+      "imagen1": "imagenes1/CSS3.jpg",
+      "imagen2": "imagenes2/CSS3.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 5,
+    "fields": {
+      "nombre": "CSS",
+      "descripcion": "Hoja de estilo en cascada o CSS (siglas en inglés de cascading style sheets) es un lenguaje usado para definir la presentación de un documento estructurado escrito en HTML o XML2 (y por extensión en XHTML). El World Wide Web Consortium (W3C) es el encargado de formular la especificación de las hojas de estilo que servirán de estándar para los agentes de usuario o navegadores. La idea que se encuentra detrás del desarrollo de CSS es separar la estructura de un documento de su presentación. La información de estilo puede ser definida en un documento separado o en el mismo documento HTML. En este último caso podrían definirse estilos generales en la cabecera del documento o en cada etiqueta particular mediante el atributo «style».",
+      "categoria": 1,
+      "company": "World Wide Web Consortium",
+      "aniocreacion": 1996,
+      "ultimaversion": "css",
+      "link": "",
+      "imagen1": "imagenes1/css.jpg",
+      "imagen2": "imagenes2/css.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 6,
+    "fields": {
+      "nombre": "ANGULARJS",
+      "descripcion": "AngularJS es un framework de JavaScript de código abierto, mantenido por Google, que ayuda con la gestión de lo que se conoce como aplicaciones de una sola página. Su objetivo es aumentar las aplicaciones basadas en navegador con capacidad de Modelo Vista Controlador (MVC), en un esfuerzo para hacer que el desarrollo y las pruebas sean más fáciles. La biblioteca lee el HTML que contiene atributos de las etiquetas personalizadas adicionales, entonces obedece a las directivas de los atributos personalizados, y une las piezas de entrada o salida de la página a un modelo representado por las variables estándar de JavaScript. Los valores de las variables de JavaScript se pueden configurar manualmente, o recuperados de los recursos JSON estáticas o dinámicas.",
+      "categoria": 3,
+      "company": "Google Inc. y comunidad",
+      "aniocreacion": 2012,
+      "ultimaversion": "2",
+      "link": "https://angularjs.org/",
+      "imagen1": "imagenes1/ANGULARJS.jpg",
+      "imagen2": "imagenes2/ANGULARJS.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 7,
+    "fields": {
+      "nombre": "DJANGOCMS",
+      "descripcion": "Django CMS is a free and open source[1] content management system platform for publishing content on the World Wide Web and intranets. It is based on Django,[2] and written in Python.",
+      "categoria": 2,
+      "company": "Python",
+      "aniocreacion": 2007,
+      "ultimaversion": "3.0.6",
+      "link": "https://django-cms.org",
+      "imagen1": "imagenes1/DJANGOCMS.jpg",
+      "imagen2": "imagenes2/DJANGOCMS.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 8,
+    "fields": {
+      "nombre": "DREAMWEAVER",
+      "descripcion": "Adobe Dreamweaver es una aplicación en programa de estudio (basada en la forma de estudio de Adobe Flash) que está destinada a la construcción, diseño y edición de sitios, vídeos y aplicaciones Web basados en estándares. Creado inicialmente por Macromedia (actualmente producido por Adobe Systems) es uno de los programas más utilizados en el sector del diseño y la programación web por sus funcionalidades, su integración con otras herramientas como Adobe Flash y, recientemente, por su soporte de los estándares del World Wide Web Consortium.",
+      "categoria": 1,
+      "company": "",
+      "aniocreacion": 2007,
+      "ultimaversion": "13.0",
+      "link": "",
+      "imagen1": "imagenes1/DREAMWEAVER.jpg",
+      "imagen2": "imagenes2/DREAMWEAVER.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 9,
+    "fields": {
+      "nombre": "DRUPAL",
+      "descripcion": "Drupal es un marco de gestión de contenidos o CMS (por sus siglas en inglés, Content Management System) libre, modular multipropósito y muy configurable que permite publicar artículos, imágenes, archivos y otras cosas u otros archivos y servicios añadidos como foros, encuestas, votaciones, blogs y administración de usuarios y permisos. Drupal es un sistema dinámico: en lugar de almacenar sus contenidos en archivos estáticos en el sistema de ficheros del servidor de forma fija, el contenido textual de las páginas y otras configuraciones son almacenados en una base de datos y se editan utilizando un entorno Web.",
+      "categoria": 2,
+      "company": "Dries Buytaert",
+      "aniocreacion": 2001,
+      "ultimaversion": "7.5",
+      "link": "http://drupal.org",
+      "imagen1": "imagenes1/DRUPAL.jpg",
+      "imagen2": "imagenes2/DRUPAL.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 10,
+    "fields": {
+      "nombre": "BACKBONE",
+      "descripcion": "Backbone es una herramienta de desarrollo/API para el lenguaje de programación Javascript con un interfaz RESTful por JSON , basada en el paradigma de diseño de aplicaciones Modelo Vista Controlador. Está diseñada para desarrollar aplicaciones de una única página2 y para mantener las diferentes partes de las aplicaciones web (p.e. múltiples clientes y un servidor) sincronizadas.",
+      "categoria": 3,
+      "company": "Jeremy Ashkenas",
+      "aniocreacion": 2010,
+      "ultimaversion": "1.0.0",
+      "link": "http://backbonejs.org",
+      "imagen1": "imagenes1/BACKBONE.jpg",
+      "imagen2": "imagenes2/BACKBONE.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 11,
+    "fields": {
+      "nombre": "HTML5",
+      "descripcion": "HTML5 (HyperText Markup Language, versión 5) es la quinta revisión importante del lenguaje básico de la World Wide Web, HTML. HTML5 especifica dos variantes de sintaxis para HTML: un «clásico» HTML (text/html), la variante conocida como HTML5 y una variante XHTML conocida como sintaxis XHTML5 que deberá ser servida como XML.1 2 Esta es la primera vez que HTML y XHTML se han desarrollado en paralelo.",
+      "categoria": 2,
+      "company": "",
+      "aniocreacion": 2014,
+      "ultimaversion": "",
+      "link": "",
+      "imagen1": "imagenes1/HTML5.jpg",
+      "imagen2": "imagenes2/HTML5.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 12,
+    "fields": {
+      "nombre": "EXCEL",
+      "descripcion": "Microsoft Excel es una aplicación distribuida por Microsoft Office para hojas de cálculo. Este programa es desarrollado y distribuido por Microsoft, y es utilizado normalmente en tareas financieras y contables.",
+      "categoria": 1,
+      "company": "Microsoft",
+      "aniocreacion": 1985,
+      "ultimaversion": "2016",
+      "link": "http://www.microsoft.com/mac/excel",
+      "imagen1": "imagenes1/EXCEL.jpg",
+      "imagen2": "imagenes2/EXCEL.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 13,
+    "fields": {
+      "nombre": "JAVA",
+      "descripcion": "Java es un lenguaje de programación de propósito general, concurrente, orientado a objetos que fue diseñado específicamente para tener tan pocas dependencias de implementación como fuera posible. Su intención es permitir que los desarrolladores de aplicaciones escriban el programa una vez y lo ejecuten en cualquier dispositivo (conocido en inglés como WORA, o <write once, run anywhere>), lo que quiere decir que el código que es ejecutado en una plataforma no tiene que ser recompilado para correr en otra. Java es, a partir de 2012, uno de los lenguajes de programación más populares en uso, particularmente para aplicaciones de cliente-servidor de web, con unos 10 millones de usuarios reportados.",
+      "categoria": 2,
+      "company": "Sun Microsystems",
+      "aniocreacion": 1995,
+      "ultimaversion": "8",
+      "link": "https://www.java.com",
+      "imagen1": "imagenes1/JAVA.jpg",
+      "imagen2": "imagenes2/JAVA.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 14,
+    "fields": {
+      "nombre": "DJANGO",
+      "descripcion": "Django es un framework de desarrollo web de código abierto, escrito en Python, que respeta el paradigma conocido como Model Template View. Fue desarrollado en origen para gestionar varias páginas orientadas a noticias de la World Company de Lawrence, Kansas, y fue liberada al público bajo una licencia BSD en julio de 2005; el framework fue nombrado en alusión al guitarrista de jazz gitano Django Reinhardt.",
+      "categoria": 3,
+      "company": "Django Software Foundation",
+      "aniocreacion": 2005,
+      "ultimaversion": "1.10",
+      "link": "https://www.djangoproject.com",
+      "imagen1": "imagenes1/DJANGO.jpg",
+      "imagen2": "imagenes2/DJANGO.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 15,
+    "fields": {
+      "nombre": "HTML",
+      "descripcion": "HTML, siglas de HyperText Markup Language («lenguaje de marcas de hipertexto»), hace referencia al lenguaje de marcado para la elaboración de páginas web. Es un estándar que sirve de referencia para la elaboración de páginas web en sus diferentes versiones, define una estructura básica y un código (denominado código HTML) para la definición de contenido de una página web, como texto, imágenes, entre otros. Es un estándar a cargo de la W3C, organización dedicada a la estandarización de casi todas las tecnologías ligadas a la web, sobre todo en lo referente a su escritura e interpretación.",
+      "categoria": 1,
+      "company": "World Wide Web Consortium & WHATWG",
+      "aniocreacion": 1993,
+      "ultimaversion": "",
+      "link": "",
+      "imagen1": "imagenes1/HTML.jpg",
+      "imagen2": "imagenes2/HTML.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 16,
+    "fields": {
+      "nombre": "SWIFT",
+      "descripcion": "iOS (por sus siglas en inglés iPhone/iPod/iPad Operating System) es un sistema operativo móvil de la empresa Apple Inc. Originalmente desarrollado para el iPhone (iPhone OS), siendo después usado en dispositivos como el iPod Touch, iPad y el Apple TV. Apple, Inc. no permite la instalación de iOS en hardware de terceros. Tenía el 26% de cuota de mercado de sistemas operativos móviles vendidos en el último cuatrimestre de 2010, detrás de Google Android y Nokia Symbian.2 En octubre-noviembre de 2014, más del 52% de los dispositivos iOS (iPad, iPod y iPhone) poseen iOS 7.",
+      "categoria": 3,
+      "company": "Apple Inc.",
+      "aniocreacion": 2007,
+      "ultimaversion": "8.1.2",
+      "link": "https://developer.apple.com/",
+      "imagen1": "imagenes1/IOS-CON-SWIFT.jpg",
+      "imagen2": "imagenes2/IOS-CON-SWIFT.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 17,
+    "fields": {
+      "nombre": "JAVASCRIPT",
+      "descripcion": "JavaScript (abreviado comúnmente <JS>) es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos,3 basado en prototipos, imperativo, débilmente tipado y dinámico. Se utiliza principalmente en su forma del lado del cliente (client-side), implementado como parte de un navegador web permitiendo mejoras en la interfaz de usuario y páginas web dinámicas4 aunque existe una forma de JavaScript del lado del servidor (Server-side JavaScript o SSJS). Su uso en aplicaciones externas a la web, por ejemplo en documentos PDF, aplicaciones de escritorio (mayoritariamente widgets) es también significativo.",
+      "categoria": 2,
+      "company": "",
+      "aniocreacion": 1995,
+      "ultimaversion": "2.002",
+      "link": "",
+      "imagen1": "imagenes1/JAVASCRIPT.jpg",
+      "imagen2": "imagenes2/JAVASCRIPT.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 18,
+    "fields": {
+      "nombre": "ILUSTRATOR",
+      "descripcion": "Adobe Illustrator (AI) es un editor de gráficos vectoriales en forma de taller de arte que trabaja sobre un tablero de dibujo, conocido como «mesa de trabajo» y está destinado a la creación artística de dibujo y pintura para ilustración (ilustración como rama del arte digital aplicado a la ilustración técnica o el diseño gráfico, entre otros).",
+      "categoria": 1,
+      "company": "Adobe Systems",
+      "aniocreacion": 1982,
+      "ultimaversion": "17.0.0",
+      "link": "http://www.adobe.com/es/products/illustrator/index.html",
+      "imagen1": "imagenes1/ILUSTRATOR.jpg",
+      "imagen2": "imagenes2/ILUSTRATOR.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 19,
+    "fields": {
+      "nombre": "JQUERY",
+      "descripcion": "jQuery es una biblioteca de JavaScript, creada inicialmente por John Resig, que permite simplificar la manera de interactuar con los documentos HTML, manipular el árbol DOM, manejar eventos, desarrollar animaciones y agregar interacción con la técnica AJAX a páginas web. Fue presentada el 14 de enero de 2006 en el BarCamp NYC. jQuery es la biblioteca de JavaScript más utilizada.",
+      "categoria": 3,
+      "company": "",
+      "aniocreacion": 2006,
+      "ultimaversion": "1.12",
+      "link": "http://jquery.com",
+      "imagen1": "imagenes1/JQUERY.jpg",
+      "imagen2": "imagenes2/JQUERY.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 20,
+    "fields": {
+      "nombre": "JOOMLA",
+      "descripcion": "Joomla es un Sistema de gestión de contenidos o CMS (por sus siglas en inglés, Content Management System) que permite desarrollar sitios web dinámicos e interactivos. Permite crear, modificar o eliminar contenido de un sitio web de manera sencilla a través de un Panel de Administración. Es un software de código abierto, desarrollado en PHP y liberado bajo licencia GPL. Este administrador de contenidos puede utilizarse en una PC local (en Localhost), en una Intranet o a través de Internet y requiere para su funcionamiento una base de datos creada con un gestor de bases de datos (MySQL es lo más habitual), así como de un servidor HTTP Apache.",
+      "categoria": 2,
+      "company": "The Joomla Project Team",
+      "aniocreacion": 2005,
+      "ultimaversion": "3.3.6",
+      "link": "",
+      "imagen1": "imagenes1/JOOMLA.jpg",
+      "imagen2": "imagenes2/JOOMLA.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 21,
+    "fields": {
+      "nombre": "PHOTOSHOP",
+      "descripcion": "Adobe Photoshop es un editor de gráficos rasterizados desarrollado por Adobe Systems. Usado principalmente para el retoque de fotografías y gráficos, su nombre en español significa literalmente <taller de fotos>. Es líder mundial del mercado de las aplicaciones de edición de imágenes y domina este sector de tal manera que su nombre es ampliamente empleado como sinónimo para la edición de imágenes en general.",
+      "categoria": 1,
+      "company": "Adobe Systems",
+      "aniocreacion": 1990,
+      "ultimaversion": "CS6",
+      "link": "http://www.adobe.com/la/products/photoshop/photoshop/",
+      "imagen1": "imagenes1/PHOTOSHOP.jpg",
+      "imagen2": "imagenes2/PHOTOSHOP.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 22,
+    "fields": {
+      "nombre": "JQUERY MOBILE",
+      "descripcion": "JQuery Mobile es un Framework optimizado para dispositivos táctiles (también conocido como Framework móvil) que está siendo desarrollado actualmente por el equipo de proyectos de jQuery. El desarrollo se centra en la creación de un Framework compatible con la gran variedad de smartphones y tablets, algo necesario en el creciente, pero heterogéneo mercado de tablets y smartphones. El Framework de jQuery Mobile es compatible con otros frameworks móviles y plataformas como PhoneGap y Worklight entre otros.",
+      "categoria": 3,
+      "company": "",
+      "aniocreacion": null,
+      "ultimaversion": "",
+      "link": "",
+      "imagen1": "imagenes1/JQUERY-MOBILE.jpg",
+      "imagen2": "imagenes2/JQUERY-MOBILE.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 23,
+    "fields": {
+      "nombre": "LIFERAY",
+      "descripcion": "Liferay es un portal de gestión de contenidos de código abierto escrito en Java. Se creó en 2000 en principio como solución para las organizaciones sin ánimo de lucro.",
+      "categoria": 2,
+      "company": "Liferay Inc.",
+      "aniocreacion": null,
+      "ultimaversion": "6.2.1",
+      "link": "http://liferay.com",
+      "imagen1": "imagenes1/LIFERAY.jpg",
+      "imagen2": "imagenes2/LIFERAY.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 24,
+    "fields": {
+      "nombre": "LARAVEL",
+      "descripcion": "Laravel es un framework de código abierto para desarrollar aplicaciones y servicios web con PHP 5. Su filosofía es desarrollar código PHP de forma elegante y simple, evitando el <código espagueti>. Fue creado en 2011 y tiene una gran influencia de frameworks como Ruby on Rails, Sinatra y ASP.NET MVC. Laravel tiene como objetivo ser un framework que permita el uso de una sintaxis elegante y expresiva para crear código de forma sencilla y permitiendo multitud de funcionalidades. Intenta aprovechar lo mejor de otros frameworks y aprovechar las características de las últimas versiones de PHP.",
+      "categoria": 3,
+      "company": "Taylor Otwell",
+      "aniocreacion": 2011,
+      "ultimaversion": "4.3",
+      "link": "http://www.laravel.com/",
+      "imagen1": "imagenes1/LARAVEL.jpg",
+      "imagen2": "imagenes2/LARAVEL.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 25,
+    "fields": {
+      "nombre": "POWERPOINT",
+      "descripcion": "Microsoft PowerPoint es un programa de presentación desarrollado por la empresa Microsoft para sistemas operativos Microsoft Windows y Mac OS, ampliamente usado en distintos campos como la enseñanza, negocios, etc. Según las cifras de Microsoft Corporation, cerca de 30 millones de presentaciones son realizadas con PowerPoint cada día. Forma parte de la suite Microsoft Office. Es un programa diseñado para hacer presentaciones con texto esquematizado, así como presentaciones en diapositivas, animaciones de texto e imágenes prediseñadas o importadas desde imágenes de la computadora. Se le pueden aplicar distintos diseños de fuente, plantilla y animación. Este tipo de presentaciones suelen ser más prácticas que las de Microsoft Word.",
+      "categoria": 1,
+      "company": "Microsoft",
+      "aniocreacion": 1995,
+      "ultimaversion": "15.0.4454",
+      "link": "http://www.microsoft.com/",
+      "imagen1": "imagenes1/POWERPOINT.jpg",
+      "imagen2": "imagenes2/POWERPOINT.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 26,
+    "fields": {
+      "nombre": "NODEJS",
+      "descripcion": "Node.js es un entorno de programación en la capa del servidor basado en el lenguaje de programación ECMAScript, asíncrono, con I/O de datos en una arquitectura orientada a eventos y basado en el motor V8 de Google. Fue creado con el enfoque de ser útil en la creación de programas de red altamente escalables, como por ejemplo, servidores web.2 Fue creado por Ryan Dahl en 2009 y su evolución está apadrinada por la empresa Joyent, que además tiene contratado a Dahl en plantilla.",
+      "categoria": 3,
+      "company": "Node.js Developers",
+      "aniocreacion": 2009,
+      "ultimaversion": "0.11.13",
+      "link": "http://nodejs.org",
+      "imagen1": "imagenes1/NODEJS.jpg",
+      "imagen2": "imagenes2/NODEJS.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 27,
+    "fields": {
+      "nombre": "PREMIER",
+      "descripcion": "Adobe Premiere Pro® (Pr) (antes conocido como Adobe Premiere) es una aplicación en forma de estudio destinado a la edición de vídeo en tiempo real. Es parte de la familia Adobe Creative Suite, un conjunto de aplicaciones de diseño gráfico, edición de vídeo y desarrollo web desarrollado por Adobe Systems. En ocasiones se distribuye gratuitamente como software OEM con tarjetas de vídeo de gama alta.",
+      "categoria": 1,
+      "company": "Adobe Systems",
+      "aniocreacion": 2012,
+      "ultimaversion": "CS",
+      "link": "http://www.adobe.com/",
+      "imagen1": "imagenes1/PREMIER.jpg",
+      "imagen2": "imagenes2/PREMIER.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 28,
+    "fields": {
+      "nombre": "PHONEGAP",
+      "descripcion": "PhoneGap es un framework para el desarrollo de aplicaciones móviles producido por Nitobi, y comprado posteriormente por Adobe Systems.3 4 Principalmente, PhoneGap permite a los programadores desarrollar aplicaciones para dispositivos móviles utilizando herramientas genéricas tales como JavaScript, HTML5 y CSS3. Las aplicaciones resultantes son híbridas, es decir que no son realmente aplicaciones nativas al dispositivo (ya que el renderizado se realiza mediante vistas web y no con interfaces gráficas específicas de cada sistema), pero no se tratan tampoco de aplicaciones web (teniendo en cuenta que son aplicaciones que son empaquetadas para poder ser desplegadas en el dispositivo incluso trabajando con el API del sistema nativo). ",
+      "categoria": 3,
+      "company": "Apache Cordova",
+      "aniocreacion": 2008,
+      "ultimaversion": "3.5.0",
+      "link": "http://apache.org",
+      "imagen1": "imagenes1/PHONEGAP.jpg",
+      "imagen2": "imagenes2/PHONEGAP.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 29,
+    "fields": {
+      "nombre": "MONGODB",
+      "descripcion": "MongoDB (de la palabra en inglés “humongous” que significa enorme) es un sistema de base de datos NoSQL orientado a documentos, desarrollado bajo el concepto de código abierto. MongoDB forma parte de la nueva familia de sistemas de base de datos NoSQL. En vez de guardar los datos en tablas como se hace en las base de datos relacionales, MongoDB guarda estructuras de datos en documentos tipo JSON con un esquema dinámico (MongoDB llama ese formato BSON), haciendo que la integración de los datos en ciertas aplicaciones sea más fácil y rápida.",
+      "categoria": 2,
+      "company": "10gen",
+      "aniocreacion": 2009,
+      "ultimaversion": "2.6.0",
+      "link": "http://mongodb.org",
+      "imagen1": "imagenes1/MONGODB.jpg",
+      "imagen2": "imagenes2/MONGODB.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 29,
+    "fields": {
+      "nombre": "PROJECT",
+      "descripcion": "Microsoft Project (o MSP) es un software de administración de proyectos diseñado, desarrollado y comercializado por Microsoft para asistir a administradores de proyectos en el desarrollo de planes, asignación de recursos a tareas, dar seguimiento al progreso, administrar presupuesto y analizar cargas de trabajo.",
+      "categoria": 1,
+      "company": "Microsoft",
+      "aniocreacion": 1984,
+      "ultimaversion": "14.0.6123",
+      "link": "http://www.microsoft.com/project",
+      "imagen1": "imagenes1/PROJECT.jpg",
+      "imagen2": "imagenes2/PROJECT.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 30,
+    "fields": {
+      "nombre": "MYSQL",
+      "descripcion": "MySQL es un sistema de gestión de bases de datos relacional, multihilo y multiusuario con más de seis millones de instalaciones.1 MySQL AB —desde enero de 2008 una subsidiaria de Sun Microsystems y ésta a su vez de Oracle Corporation desde abril de 2009— desarrolla MySQL como software libre en un esquema de licenciamiento dual.",
+      "categoria": 2,
+      "company": "Sun Microsystems",
+      "aniocreacion": 2002,
+      "ultimaversion": "5.7.4",
+      "link": "http://www.mysql.com",
+      "imagen1": "imagenes1/MYSQL.jpg",
+      "imagen2": "imagenes2/MYSQL.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 31,
+    "fields": {
+      "nombre": "RUBY ON RAILS",
+      "descripcion": "Ruby on Rails, también conocido como RoR o Rails, es un framework de aplicaciones web de código abierto escrito en el lenguaje de programación Ruby, siguiendo el paradigma de la arquitectura Modelo Vista Controlador (MVC). Trata de combinar la simplicidad con la posibilidad de desarrollar aplicaciones del mundo real escribiendo menos código que con otros frameworks y con un mínimo de configuración. El lenguaje de programación Ruby permite la metaprogramación, de la cual Rails hace uso, lo que resulta en una sintaxis que muchos de sus usuarios encuentran muy legible. Rails se distribuye a través de RubyGems, que es el formato oficial de paquete y canal de distribución de bibliotecas y aplicaciones Ruby.",
+      "categoria": 3,
+      "company": "Rails Core Team",
+      "aniocreacion": 2005,
+      "ultimaversion": "5.1.0",
+      "link": "http://rubyonrails.org",
+      "imagen1": "imagenes1/RUBY-ON-RAILS.jpg",
+      "imagen2": "imagenes2/RUBY-ON-RAILS.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 32,
+    "fields": {
+      "nombre": "PHP",
+      "descripcion": "PHP es un lenguaje de programación de uso general de código del lado del servidor originalmente diseñado para el desarrollo web de contenido dinámico. Fue uno de los primeros lenguajes de programación del lado del servidor que se podían incorporar directamente en el documento HTML en lugar de llamar a un archivo externo que procese los datos. El código es interpretado por un servidor web con un módulo de procesador de PHP que genera la página Web resultante. PHP ha evolucionado por lo que ahora incluye también una interfaz de línea de comandos que puede ser usada en aplicaciones gráficas independientes. Puede ser usado en la mayoría de los servidores web al igual que en casi todos los sistemas operativos y plataformas sin ningún costo.",
+      "categoria": 2,
+      "company": "PHP Group",
+      "aniocreacion": 2001,
+      "ultimaversion": "5.6.0",
+      "link": "http://php.net",
+      "imagen1": "imagenes1/PHP.jpg",
+      "imagen2": "imagenes2/PHP.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 33,
+    "fields": {
+      "nombre": "POSTGRESQL",
+      "descripcion": "PostgreSQL es un Sistema de gestión de bases de datos relacional orientado a objetos y libre, publicado bajo la licencia BSD. Como muchos otros proyectos de código abierto, el desarrollo de PostgreSQL no es manejado por una empresa y/o persona, sino que es dirigido por una comunidad de desarrolladores que trabajan de forma desinteresada, altruista, libre y/o apoyados por organizaciones comerciales. Dicha comunidad es denominada el PGDG (PostgreSQL Global Development Group).",
+      "categoria": 2,
+      "company": "PostgreSQL Global Development Group",
+      "aniocreacion": 2007,
+      "ultimaversion": "9.3.5",
+      "link": "http://postgresql.org",
+      "imagen1": "imagenes1/POSTGRESQL.jpg",
+      "imagen2": "imagenes2/POSTGRESQL.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 34,
+    "fields": {
+      "nombre": "PYTHON",
+      "descripcion": "Python es un lenguaje de programación interpretado cuya filosofía hace hincapié en una sintaxis que favorezca un código legible. Se trata de un lenguaje de programación multiparadigma, ya que soporta orientación a objetos, programación imperativa y, en menor medida, programación funcional. Es un lenguaje interpretado, usa tipado dinámico y es multiplataforma. Es administrado por la Python Software Foundation. Posee una licencia de código abierto, denominada Python Software Foundation License,1 que es compatible con la Licencia pública general de GNU a partir de la versión 2.1.1, e incompatible en ciertas versiones anteriores.",
+      "categoria": 3,
+      "company": "Python Software Foundation",
+      "aniocreacion": 1991,
+      "ultimaversion": "3.5.2",
+      "link": "http://python.org",
+      "imagen1": "imagenes1/PYTHON.jpg",
+      "imagen2": "imagenes2/PYTHON.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 35,
+    "fields": {
+      "nombre": "SENCHA",
+      "descripcion": "Sencha Touch is a user interface (UI) JavaScript library, or framework, specifically built for the Mobile Web. It can be used by Web developers to develop user interfaces for mobile web applications that look and feel like native applications on supported mobile devices. It is fully based on web standards such as HTML5, CSS3 and JavaScript. Sencha Touch aims to enable developers to quickly and easily create HTML5 based mobile apps that work on Android, iOS, Windows, Tizen and BlackBerry devices, and produce a native-app-like experience inside a browser.",
+      "categoria": 3,
+      "company": "",
+      "aniocreacion": 2010,
+      "ultimaversion": "2.4",
+      "link": "http://www.sencha.com/products/touch",
+      "imagen1": "imagenes1/SENCHA.jpg",
+      "imagen2": "imagenes2/SENCHA.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 36,
+    "fields": {
+      "nombre": "VISIO",
+      "descripcion": "Microsoft Visio es un software de dibujo vectorial para Microsoft Windows. Microsoft compró la compañía Visio en el año 2000. Las herramientas que lo componen permiten realizar diagramas de oficinas, diagramas de bases de datos, diagramas de flujo de programas, UML, y más, que permiten iniciar al usuario en los lenguajes de programación.",
+      "categoria": 1,
+      "company": "Microsoft",
+      "aniocreacion": 2003,
+      "ultimaversion": "14.0.6123",
+      "link": "http://www.microsoft.com/visio",
+      "imagen1": "imagenes1/VISIO.jpg",
+      "imagen2": "imagenes2/VISIO.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 37,
+    "fields": {
+      "nombre": "REDIS",
+      "descripcion": "Redis es un motor de base de datos en memoria, basado en el almacenamiento en tablas de hashes (clave/valor) pero que opcionalmente puede ser usada como una base de datos durable o persistente. Está escrito en ANSI C por Salvatore Sanfilippo quien es patrocinado por VMware.1 2 y está liberado bajo licencia BSD por lo que es considerado software de código abierto.",
+      "categoria": 2,
+      "company": "Salvatore Sanfilippo",
+      "aniocreacion": 2009,
+      "ultimaversion": "3.0.0",
+      "link": "http://redis.io",
+      "imagen1": "imagenes1/REDIS.jpg",
+      "imagen2": "imagenes2/REDIS.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 38,
+    "fields": {
+      "nombre": "SYMFONY",
+      "descripcion": "Symfony es un completo framework diseñado para optimizar el desarrollo de las aplicaciones web basado en el patrón Modelo Vista Controlador. Para empezar, separa la lógica de negocio, la lógica de servidor y la presentación de la aplicación web. Proporciona varias herramientas y clases encaminadas a reducir el tiempo de desarrollo de una aplicación web compleja. Además, automatiza las tareas más comunes, permitiendo al desarrollador dedicarse por completo a los aspectos específicos de cada aplicación. El resultado de todas estas ventajas es que no se debe reinventar la rueda cada vez que se crea una nueva aplicación web.",
+      "categoria": 3,
+      "company": "Comunidad Symfony",
+      "aniocreacion": 2005,
+      "ultimaversion": "2.5.4",
+      "link": "http://www.symfony.com",
+      "imagen1": "imagenes1/SYMFONY.jpg",
+      "imagen2": "imagenes2/SYMFONY.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 39,
+    "fields": {
+      "nombre": "SQL",
+      "descripcion": "El lenguaje de consulta estructurado o SQL (por sus siglas en inglés Structured Query Language) es un lenguaje declarativo de acceso a bases de datos relacionales que permite especificar diversos tipos de operaciones en ellas. Una de sus características es el manejo del álgebra y el cálculo relacional que permiten efectuar consultas con el fin de recuperar de forma sencilla información de interés de bases de datos, así como hacer cambios en ellas.",
+      "categoria": 2,
+      "company": "Microsoft",
+      "aniocreacion": 1986,
+      "ultimaversion": "2015",
+      "link": "https://www.microsoft.com/en-us/download/",
+      "imagen1": "imagenes1/SQL.jpg",
+      "imagen2": "imagenes2/SQL.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 40,
+    "fields": {
+      "nombre": "THREEJS",
+      "descripcion": "Es una biblioteca liviana escrita en JavaScript para crear y mostrar gráficos animados por ordenador en 3D en un navegador Web y puede ser utilizada en conjunción con el elemento canvas de HTML5, SVG ó WebGL. El código fuente está alojado en un repositorio en GitHub.",
+      "categoria": 3,
+      "company": "Three.js Autores",
+      "aniocreacion": 2010,
+      "ultimaversion": "r61",
+      "link": "https://threejs.org/",
+      "imagen1": "imagenes1/THREEJS.jpg",
+      "imagen2": "imagenes2/THREEJS.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 41,
+    "fields": {
+      "nombre": "WORD",
+      "descripcion": "Microsoft Word es un software destinado al procesamiento de textos. Fue creado por la empresa Microsoft, y actualmente viene integrado en la suite ofimática Microsoft Office.1 Originalmente fue desarrollado por Richard Brodie para el computador de IBM bajo sistema operativo DOS en 1983.Versiones subsecuentes fueron programadas para muchas otras plataformas, incluyendo, las computadoras IBM que corrían en MS-DOS (1983). Es un componente de la suite ofimática Microsoft Office; también es vendido de forma independiente e incluido en la Suite de Microsoft Works. Las versiones actuales son Microsoft Office Word 2013 para Windows y Microsoft Office Word 2011 para Mac. Es el procesador de texto más popular del mundo.",
+      "categoria": 1,
+      "company": "Microsoft",
+      "aniocreacion": 1983,
+      "ultimaversion": "2016",
+      "link": "https://www.microsoft.com/",
+      "imagen1": "imagenes1/Word.jpg",
+      "imagen2": "imagenes2/Word.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 42,
+    "fields": {
+      "nombre": "TITANIUM",
+      "descripcion": "Appcelerator Inc es el nombre de una compañía privada especializada en tecnología móvil, con sede en Mountain View, California. Sus principales productos son el IDE Titanium, un entorno de desarrollo de código libre para codificación de aplicaciones multiplataforma para dispositivos móviles, y la Plataforma Appcelerator, una suite de software y librerías en la que se basa el desarrollo, testeo, análisis, depuración y despliegue de tales aplicaciones. Dichos productos son frecuentemente agrupados, simplemente, bajo la denominación de Titanium o Titanium Framework.",
+      "categoria": 3,
+      "company": "Appcelerator Inc.",
+      "aniocreacion": 2009,
+      "ultimaversion": "3.2.0",
+      "link": "",
+      "imagen1": "imagenes1/TITANIUM.jpg",
+      "imagen2": "imagenes2/TITANIUM.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 43,
+    "fields": {
+      "nombre": "UBUNTU",
+      "descripcion": "Ubuntu es un sistema operativo basado en Linux y que se distribuye como software libre, el cual incluye su propio entorno de escritorio denominado Unity. Su nombre proviene de la ética homónima, en la que se habla de la existencia de uno mismo como cooperación de los demás. Esta orientado al usuario novel y promedio, con un fuerte enfoque en la facilidad de uso y en mejorar la experiencia de usuario. Está compuesto de múltiple software normalmente distribuido bajo una licencia libre o de código abierto. Estadísticas web sugieren que la cuota de mercado de Ubuntu dentro de las distribuciones Linux es, aproximadamente, del 49%,3 4 y con una tendencia a aumentar como servidor web.5 Y un importante incremento activo de 20 millones de usuarios para fines del 2011.",
+      "categoria": 2,
+      "company": "Fundación Ubuntu",
+      "aniocreacion": 2004,
+      "ultimaversion": "16.04",
+      "link": "http://ubuntu.com",
+      "imagen1": "imagenes1/UBUNTU.jpg",
+      "imagen2": "imagenes2/UBUNTU.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 44,
+    "fields": {
+      "nombre": "WORDPRESS",
+      "descripcion": "WordPress es un sistema de gestión de contenido o CMS (por sus siglas en inglés, Content Management System) enfocado a la creación de blogs (sitios web periódicamente actualizados). Ha sido desarrollado en PHP para entornos que ejecuten MySQL y Apache, bajo licencia GPL y código modificable, y su fundador es Matt Mullenweg. WordPress fue creado a partir del desaparecido b2/cafelog y se ha convertido junto a Movable Type en el CMS más popular de la blogosfera y en el más popular con respecto a cualquier otro CMS de uso general.2 3 Las causas de su enorme crecimiento son, entre otras, su licencia, su facilidad de uso y sus características como gestor de contenidos.",
+      "categoria": 2,
+      "company": "WordPress Foundation",
+      "aniocreacion": 2003,
+      "ultimaversion": "4.0",
+      "link": "http://wordpress.org",
+      "imagen1": "imagenes1/WORDPRESS.jpg",
+      "imagen2": "imagenes2/WORDPRESS.jpg"
+    }
+  },
+  {
+    "model": "gm.materia",
+    "pk": 45,
+    "fields": {
+      "nombre": "BOOTSTRAP",
+      "descripcion": "Framework de Twitter que permite crear interfaces web con CSS y Javascript que adaptan la interfaz dependiendo del tamaño del dispositivo en el que se visualice de forma nativa, es decir, automáticamente se adapta al tamaño de un ordenador o de una Tablet sin que el usuario tenga que hacer nada, esto se denomina diseño adaptativo o Responsive Design y…está de moda.",
+      "categoria": 2,
+      "company": "Twitter",
+      "aniocreacion": 2011,
+      "ultimaversion": "3.3.0",
+      "link": "http://getbootstrap.com/",
+      "imagen1": "imagenes1/BOOTSTRAP.jpg",
+      "imagen2": "imagenes2/BOOTSTRAP.jpg"
+    }
+  },
+  {
+    "model": "gm.profesor",
+    "pk": 1,
+    "fields": {
+      "nombres": "George",
+      "apellido1": "Navarro",
+      "apellido2": "Gomez",
+      "cedula": "1751106782",
+      "email": "gnavarrog1802@gmail.com",
+      "twitter": "aokgeorge",
+      "linkedin": "gnavarrog1802"
+    }
+  },
+  {
+    "model": "gm.profesor",
+    "pk": 2,
+    "fields": {
+      "nombres": "Duenytz",
+      "apellido1": "Sierra",
+      "apellido2": "",
+      "cedula": "1751106854",
+      "email": "duenytz@gmail.com",
+      "twitter": "duenytz",
+      "linkedin": "duenytz"
+    }
+  },
+  {
+    "model": "gm.profesor",
+    "pk": 3,
+    "fields": {
+      "nombres": "Maykel",
+      "apellido1": "Barreto",
+      "apellido2": "Gonzalez",
+      "cedula": "1724252132",
+      "email": "mbarreto@gmail.com",
+      "twitter": "mbarreto",
+      "linkedin": "barreto"
+    }
+  },
+  {
+    "model": "gm.profesor",
+    "pk": 4,
+    "fields": {
+      "nombres": "Maria",
+      "apellido1": "Caridad",
+      "apellido2": "Pons",
+      "cedula": "1751106823",
+      "email": "mcpons2010@hotmail.es",
+      "twitter": "mcpons",
+      "linkedin": "mcpons"
+    }
+  },
+  {
+    "model": "gm.programa",
+    "pk": 1,
+    "fields": {
+      "materia": 1,
+      "profesor": 4,
+      "titulo": "PROGRAMA I",
+      "objetivo": "En este curso el estudiante aprenderá la maravillosa aplicación Adobe After Effects cuya forma de estudio está destinada a la creación, aplicación y realización de gráficos profesionales en movimiento , de montaje de vídeo y de efectos especiales audiovisuales, que desde sus raíces han consistido básicamente en la superposición de capas. Adobe After Effects es uno los softwares basados en línea de tiempo más potentes del mercado junto con Autodesk Combustion y Eyeon Fusion. Una de las principales fortalezas del programa es que existen una gran cantidad de plugins desarrollados por otras compañías que ayudan a aligerar las cargas de trabajo continuo y repetitivo en lo que a aplicación de efectos se refiere. Su interfaz resulta familiar a muchos editores dedicados a la post-producción, lo que lo convierte en la elección ideal para la mayoría de profesionales. Aspecto de Adobe After Effects CS5. Este software está dirigido a diseñadores gráficos, productores de vídeo y a profesionales en multimedia, aunque muchos aficionados se guían de tutoriales y crean desde intros hasta cortometrajes generando resultados de creatividad."
+    }
+  },
+  {
+    "model": "gm.programa",
+    "pk": 2,
+    "fields": {
+      "materia": 2,
+      "profesor": 2,
+      "titulo": "PROGRAMA I",
+      "objetivo": "Con este curso aprenderás a crear desde cero tus propias aplicaciones para dispositivos móviles con sistema operativo Android. Desde los temas más básicos, como descargar e instalar las herramientas necesarias o crear tu primer proyecto paso a paso, hasta temas avanzados como la localización GPS o la comunicación con servicios web. El único requisito recomendable es tener al menos conocimientos básicos de programación en general y conocer el lenguaje de programación Java."
+    }
+  },
+  {
+    "model": "gm.programa",
+    "pk": 3,
+    "fields": {
+      "materia": 3,
+      "profesor": 3,
+      "titulo": "PROGRAMA I",
+      "objetivo": "En este curso aprenderemos como instalar y configurar un servidor en CentOS. CentOS es una de las distribuciones preferidas por los proveedores de Internet a nivel mundial provee de servicios tales como: Servidor web Apache (SSL), Servidor de correo Postfix con SMTP-AUTH y TLS, Servidor DNS BIND, Servidor FTP ProFTP, Servidor MySQL, Servidor POP3/IMAP POP3/IMAP, Firewall, etc."
+    }
+  },
+  {
+    "model": "gm.programa",
+    "pk": 4,
+    "fields": {
+      "materia": 5,
+      "profesor": 4,
+      "titulo": "PROGRAMA I",
+      "objetivo": "En este curso aprenderemos CSS que es un lenguaje de hojas de estilos creado para controlar el aspecto o presentación de los documentos electrónicos definidos con HTML y XHTML. CSS es la mejor forma de separar los contenidos y su presentación y es imprescindible para crear páginas web complejas. Separar la definición de los contenidos y la definición de su aspecto presenta numerosas ventajas, ya que obliga a crear documentos HTML/XHTML bien definidos y con significado completo, además, mejora la accesibilidad del documento, reduce la complejidad de su mantenimiento y permite visualizar el mismo documento en infinidad de dispositivos diferentes."
+    }
+  },
+  {
+    "model": "gm.programa",
+    "pk": 5,
+    "fields": {
+      "materia": 6,
+      "profesor": 1,
+      "titulo": "PROGRAMA I",
+      "objetivo": "Framework Javascript AngularJS, no es mas que un conjunto de librerías de código abierto que sirven para hacer aplicaciones web avanzadas del lado del cliente. Es ideal para hacer aplicaciones de negocio y aplicaciones de gestión que se despliegan en una única página. Usa el patrón de diseño habitualmente encontrado en el desarrollo web MVC, aunque en una variante llamada a veces MV* y a veces MVVM. Además permite un desarrollo ordenado, sencillo de realizar y sobre todo más fácil de mantener en un futuro. AngularJS está apoyado por Google y cada día más desarrolladores están adoptándolo, lo que brinda una idea del prometedor futuro de la librería. "
+    }
+  },
+  {
+    "model": "gm.programa",
+    "pk": 6,
+    "fields": {
+      "materia": 7,
+      "profesor": 1,
+      "titulo": "PROGRAMA I",
+      "objetivo": "En este curso aprenderemos DjangoCMS que es un CMS OpenSource muy actual. Es una plataforma de sistema de gestión de contenidos para la publicación de contenidos en internet World Wide Web y está basada en el framework web Django, y escrito en Python."
+    }
+  },
+  {
+    "model": "gm.programa",
+    "pk": 7,
+    "fields": {
+      "materia": 8,
+      "profesor": 4,
+      "titulo": "PROGRAMA I",
+      "objetivo": "En este seminario el estudiante aprenderá Adobe Dreamweaver, aplicación en programa de estudio (basada en la forma de estudio de Adobe Flash) que está destinada a la construcción, diseño y edición de sitios, vídeos y aplicaciones Web basados en estándares. Creado inicialmente por Macromedia (actualmente producido por Adobe Systems) es uno de los programas más utilizados en el sector del diseño y la programación web por sus funcionalidades, su integración con otras herramientas como Adobe Flash y, recientemente, por su soporte de los estándares del World Wide Web Consortium. La gran ventaja de este editor sobre otros es su gran poder de ampliación y personalización, puesto que en este programa sus rutinas están hechas en Javascript-C, lo que ofrece una gran flexibilidad en estas materias. Esto hace que los archivos del programa no sean instrucciones de C++ sino rutinas de Javascript que hace que sea un programa muy fluido y esto permite que programadores y editores web hagan extensiones para su programa y lo modifiquen a su gusto."
+    }
+  },
+  {
+    "model": "gm.programa",
+    "pk": 8,
+    "fields": {
+      "materia": 9,
+      "profesor": 1,
+      "titulo": "PROGRAMA I",
+      "objetivo": "En este curso aprenderemos Drupal que es un CMS o sistema de gestión de contenidos que se utiliza para crear sitios web dinámicos y con gran variedad de funcionalidades. Es un software libre, escrito en PHP, que cuenta con una amplia y activa comunidad de usuarios y desarrolladores que colaboran conjuntamente en su mejora y ampliación. Esta ampliación es posible gracias a que se trata de un sistema modular con una arquitectura muy consistente, que permite que los módulos creados por cualquier desarrollador puedan interactuar con el núcleo del sistema y con los módulos creados por otros miembros de la comunidad. Con Drupal es posible implementar una gran variedad de sitios web: un blog personal o profesional, un portal corporativo, una tienda virtual, una red social o comunidad virtual, etc."
+    }
+  },
+  {
+    "model": "gm.programa",
+    "pk": 9,
+    "fields": {
+      "materia": 10,
+      "profesor": 1,
+      "titulo": "PROGRAMA I",
+      "objetivo": "Librería para el desarrollo de sitios web, principalmente usada para aplicaciones web con bastante interacción con el cliente, donde se hace un uso intensivo de Javascript, Ajax, etc. Permite desarrollar en Javascript atendiendo a patrones, con una variante del paradigma MVC, el mismo que se ha introducido con fuerza en la programación del lado del servidor y que ya es costumbre en el desarrollo del lado del cliente. Es una herramienta muy indicada en aplicaciones de una sola página, aunque también es útil para otros tipos de sitios donde se encuentran interfaces de usuario avanzadas. Facilita la ordenación del código y la sincronización de las vistas con los datos de la aplicación. Todo ello redunda en una programación más modularizada y con mayor separación entre las partes de la aplicación, como presentación, datos, etc. "
+    }
+  },
+  {
+    "model": "gm.programa",
+    "pk": 10,
+    "fields": {
+      "materia": 11,
+      "profesor": 1,
+      "titulo": "PROGRAMA I",
+      "objetivo": "En este curso los estudiantes aprenderán las funcionalidades y características que forman parte de la especificación HTML5 y las tecnologías que involucran. También podrán aprender la diferencia entre la sintaxis de HMTL5 y la de HTML4 y/o XHTML 1.0. Se podrá identificar además las principales características de HTML5, como los nuevos elementos, elementos multimedia, el elemento Canvas, formularios web, etc. Repasar los conocimientos de HTML y CSS para hacer una comparación de las herramientas que se mantienen y cuales no. Aprenderemos el uso de las principales APIs de Javascript que trae implícito esta nueva estandarización de HTML5, con los cuales haremos ejemplos prácticos interesantes de aplicación empresarial."
+    }
+  },
+  {
+    "model": "gm.programa",
+    "pk": 11,
+    "fields": {
+      "materia": 12,
+      "profesor": 3,
+      "titulo": "PROGRAMA I",
+      "objetivo": "En este curso aprenderemos  Microsoft Excel que es una potente aplicación de hojas de cálculo y análisis de datos, con múltiples capacidades y recursos, que permite organizar de la manera más armónica y efectiva los datos y los números que se manejan cotidianamente. Conocemos, también, las principales opciones con las que contamos para manejar datos, celdas y rangos; hacer cálculos a partir de fórmulas y funciones; generar gráficos para representar nuestra información; crear tablas o modificar el formato de nuestras planillas. Siempre que el lector necesite repasar algunas de estas herramientas básicas, es recomendable consultar el libro Excel 2013 de USERS, de anterior aparición al que tiene en sus manos."
+    }
+  },
+  {
+    "model": "gm.programa",
+    "pk": 12,
+    "fields": {
+      "materia": 13,
+      "profesor": 2,
+      "titulo": "PROGRAMA I",
+      "objetivo": "Java es la base para prácticamente todos los tipos de aplicaciones de red, además del estándar global para desarrollar y distribuir aplicaciones móviles y embebidas, juegos, contenido basado en web y software de empresa. Con más de 9 millones de desarrolladores en todo el mundo, Java le permite desarrollar, implementar y utilizar de forma eficaz interesantes aplicaciones y servicios. Desde portátiles hasta centros de datos, desde consolas para juegos hasta súper computadoras, desde teléfonos móviles hasta Internet, Java está en todas partes. Es un lenguaje de programación de propósito general, concurrente, orientado a objetos y basado en clases que fue diseñado específicamente para tener tan pocas dependencias de implementación como fuera posible."
+    }
+  },
+  {
+    "model": "gm.programa",
+    "pk": 13,
+    "fields": {
+      "materia": 14,
+      "profesor": 1,
+      "titulo": "PROGRAMA I",
+      "objetivo": "Framework hecho en python para perfeccionistas. Aparte de las ventajas que tiene por ser framework, Django promueve el desarrollo rápido, se construyen aplicaciones en cuestión de días y con el conocimiento suficiente esos días se pueden reducir a horas. Django impulsa el desarrollo de código limpio al promover buenas prácticas de desarrollo web, sigue el principio DRY (conocido también como Una vez y sólo una). Usa una modificación de la arquitectura Modelo-Vista-Controlador (MVC)2, llamada MTV (Model – Template – View)3, que sería Modelo-Plantilla-Vista, está forma de trabajar permite que sea pragmático."
+    }
+  },
+  {
+    "model": "gm.programa",
+    "pk": 14,
+    "fields": {
+      "materia": 15,
+      "profesor": 4,
+      "titulo": "PROGRAMA I",
+      "objetivo": "En este curso aprenderemos a crear páginas usando el lenguaje de maquetación Html, desde qué tipo de programas podemos usar para la creación de nuestra página web, hasta como usar mapas, imágenes, marcos o frames, gestión de audios o videos en una página Web, etc. Html es el lenguaje con el que al escribir etiquetas creamos páginas web. Las páginas se visualizan por medio de un navegador. Con Html puedes crear tablas, colocar imágenes, reproducir audio y/o video, etc. El Html no es el único lenguaje que existe, simplemente es el básico, ya que los demás lenguajes como Php, Asp, Javascript, y otros... también requieren de algunos códigos de Html para poder funcionar."
+    }
+  },
+  {
+    "model": "gm.programa",
+    "pk": 15,
+    "fields": {
+      "materia": 16,
+      "profesor": 2,
+      "titulo": "PROGRAMA I",
+      "objetivo": "En este curso aprenderemos el nuevo lenguaje de programación que Apple ha creado, el cual durante su creación y según los rumores, estuvo en proceso de desarrollo cerca de 4 años, seguramente Jobs alcanzó a poner su magia allí. Swift fue lanzado en el WWDC 2014 y ya que hemos estado practicando con este nuevo lenguaje debo decir que facilita mucho la vida de todo developer existente de iOS y la curva de aprendizaje para los nuevos en la plataforma es increíblemente corta. Además de aprender los fundamentos del lenguaje de programación Swift, adquirirás los conocimientos necesarios para manejar con soltura la herramienta de desarrollo Xcode 6. Al finalizar el curso obtendrás los conocimientos necesarios para crear fantásticas aplicaciones para iOS 8 con el nuevo lenguaje de programación de Apple Swift. "
+    }
+  },
+  {
+    "model": "gm.programa",
+    "pk": 16,
+    "fields": {
+      "materia": 17,
+      "profesor": 1,
+      "titulo": "PROGRAMA I",
+      "objetivo": "Lenguaje de programación utilizado para crear pequeños programitas encargados de realizar acciones dentro del ámbito de una página web. Con Javascript podemos crear efectos especiales en las páginas y definir interactividades con el usuario. El navegador del cliente es el encargado de interpretar las instrucciones Javascript y ejecutarlas para realizar estos efectos e interactividades, de modo que el mayor recurso, y tal vez el único, con que cuenta este lenguaje es el propio navegador.Javascript es el siguiente paso, después del HTML, que puede dar un programador de la web que decida mejorar sus páginas y la potencia de sus proyectos. Es un lenguaje de programación bastante sencillo y pensado para hacer las cosas con rapidez, a veces con ligereza. Incluso las personas que no tengan una experiencia previa en la programación podrán aprender este lenguaje con facilidad y utilizarlo en toda su potencia con sólo un poco de práctica."
+    }
+  },
+  {
+    "model": "gm.programa",
+    "pk": 17,
+    "fields": {
+      "materia": 18,
+      "profesor": 3,
+      "titulo": "PROGRAMA I",
+      "objetivo": "En este curso aprenderemos Adobe Ilustrator que es importante recalcar que este programa no se utiliza para retocar imágenes, es un programa utilizado por los diseñadores gráficos en su mayoría para crear logotipos, dibujo vectorial, ilustración, aplicaciones básicas de diseño (cartel, triptico, tarjetas de presentación, volantes, calcomanias, papelería en general y revistas entre otros productos). Pero su mayor ventaja es el manejo de vectores o imágenes vectoriales."
+    }
+  },
+  {
+    "model": "gm.programa",
+    "pk": 18,
+    "fields": {
+      "materia": 19,
+      "profesor": 1,
+      "titulo": "PROGRAMA I",
+      "objetivo": "En este curso aprendemos el framework JQuery, para el lenguaje Javascript, el cual será un producto que nos simplificará la vida para programar en este lenguaje. JQuery nos puede ayudar mucho, puesto que implementa una serie de clases (de programación orientada a objetos) que nos permiten programar sin preocuparnos del navegador con el que nos está visitando el usuario, ya que funcionan de exacta forma en todas las plataformas más habituales. Si queremos enriquecer nuestra página web con componentes de la llamada Web 2.0, como efectos dinámicos, Ajax, interacción, interfaces de usuario avanzadas, etc., jQuery es una herramienta imprescindible para desarrollar todas estas cosas increibles sin tener que complicarte con los niveles más bajos del desarrollo, ya que muchas funcionalidades ya están implementadas, o bien las librerías del framework te permitirán realizar la programación mucho más rápida y libre de errores."
+    }
+  },
+  {
+    "model": "gm.programa",
+    "pk": 19,
+    "fields": {
+      "materia": 20,
+      "profesor": 3,
+      "titulo": "PROGRAMA I",
+      "objetivo": "En este curso aprenderemos Joomla el cual es un Sistema de gestión de contenidos o CMS (Content Management System) que permite desarrollar sitios web dinámicos e interactivos. Permite crear, modificar o eliminar contenido de un sitio web de manera sencilla a través de un Panel de Administración. Es un software de código abierto, desarrollado en PHP y liberado bajo licencia GPL. Este administrador de contenidos puede utilizarse en una PC local (en Localhost), en una Intranet o a través de Internet y requiere para su funcionamiento una base de datos creada con un gestor de bases de datos (MySQL es lo más habitual), así como de un servidor HTTP Apache."
+    }
+  },
+  {
+    "model": "gm.programa",
+    "pk": 20,
+    "fields": {
+      "materia": 21,
+      "profesor": 4,
+      "titulo": "PROGRAMA I",
+      "objetivo": "En este curso aprenderemos Adobe Photoshop que es un editor de gráficos rasterizados desarrollado por Adobe Systems. Usado principalmente para el retoque de fotografías y gráficos, su nombre en español significa literalmente <taller de fotos>. Es líder mundial del mercado de las aplicaciones de edición de imágenes y domina este sector de tal manera que su nombre es ampliamente empleado como sinónimo para la edición de imágenes en general. Actualmente forma parte de la familia Adobe Creative Suite y es desarrollado y comercializado por Adobe Systems Incorporated inicialmente para computadores Apple pero posteriormente también para plataformas PC con sistema operativo Windows. Su distribución viene en diferentes presentaciones, que van desde su forma individual hasta como parte de un paquete, siendo éstos: Adobe Creative Suite Design Premium y Versión Standard, Adobe Creative Suite Web Premium, Adobe Creative Suite Production Studio Premium y Adobe Creative Suite Master Collection."
+    }
+  },
+  {
+    "model": "gm.programa",
+    "pk": 21,
+    "fields": {
+      "materia": 22,
+      "profesor": 1,
+      "titulo": "PROGRAMA I",
+      "objetivo": "En este curso aprenderemos el framework de interfaz gráfica especialmente diseñado para desarrollo de aplicaciones web para móviles que pretende unificar el diseño de interfaces de usuario para la mayoría de dispositivos móviles del mercado. Como su propio nombre indica, jQuery Mobile tiene como base el más que sólido framework javascript jQuery. Además, es un framework muy ligero, algo totalmente necesario por las propias características de los dispositivos móviles y sus capacidades de conexión. Por otro lado, el diseño es fácilmente modificable. jQuery Mobile está apoyado en estos momentos por empresas tan importantes como Mozilla Corporation, Palm, Blackberry, Nokia y Adobe entre otras, y es que estas empresas no quieren seguir perdiendo mercado que dispositivos como Android y iPhone con sus aplicaciones nativas les ha hecho perder en los últimos tiempos. El objetivo principal de este framework es conseguir una misma sensación de navegación por parte del usuario final en la mayoría de los dispositivos móviles. "
+    }
+  },
+  {
+    "model": "gm.programa",
+    "pk": 22,
+    "fields": {
+      "materia": 23,
+      "profesor": 1,
+      "titulo": "PROGRAMA I",
+      "objetivo": "En este curso los estudiantes podrán aprender sobre Liferay Portal que es una plataforma web corporativa que ayudará a desarrollar soluciones empresariales con resultados inmediatos y valor a largo plazo. Incluye una amplia gama de funcionalidades de producto, que le permitirán comenzar a rentabilizar su inversión de inmediato: Gestión de contenidos y documentos con integración Microsoft Office®, Edición Web y espacios de trabajo compartidos, Colaboración a nivel de empresa (enterprise collaboration), Redes Sociales o híbridas (mash up), Portales Corporativos y Gestión de Identidades."
+    }
+  },
+  {
+    "model": "gm.programa",
+    "pk": 23,
+    "fields": {
+      "materia": 24,
+      "profesor": 4,
+      "titulo": "PROGRAMA I",
+      "objetivo": "En este curso aprenderemos Laravel, nuevo y poderoso Framework PHP que promete llevar al lenguaje PHP a un nuevo nivel. Desarrollar aplicaciones usando Laravel es muy sencillo, fundamentalmente debido a su expresiva sintaxis, sus generadores de código, y su ORM incluido de paquete llamado Eloquent ORM. Laravel, propone una forma de desarrollar aplicaciones web de un modo mucho más ágil. Por ejemplo, en Laravel opcionalmente podemos usar el patrón de diseño MVC (Modelo-Vista-Controlador) tradicional, donde al igual que otros fameworks PHP, el controlador es programado como una clase. Lavarel propone además una forma distinta y más directa de responder a la solicitud HTTP."
+    }
+  },
+  {
+    "model": "gm.programa",
+    "pk": 24,
+    "fields": {
+      "materia": 25,
+      "profesor": 3,
+      "titulo": "PROGRAMA I",
+      "objetivo": "En este curso aprenderemos Microsoft Power Point es la herramienta que nos ofrece Microsoft Office para crear  presentaciones. Las presentaciones son imprescindibles hoy en día ya que permiten comunicar información e ideas de forma visual y atractiva."
+    }
+  },
+  {
+    "model": "gm.programa",
+    "pk": 25,
+    "fields": {
+      "materia": 26,
+      "profesor": 1,
+      "titulo": "PROGRAMA I",
+      "objetivo": "En este curso aprenderemos NodeJS que no es mas que una plataforma super-rápida, especialmente diseñada para realizar operaciones de entrada / salida (Input / Output o simplemente I/O en inglés) en redes informáticas por medio de distintos protocolos, apegada a la filosofía UNIX. Es además uno de los actores que ha provocado, junto con HTML5, que Javascript gane gran relevancia en los últimos tiempos, pues ha conseguido llevar al lenguaje a nuevas fronteras como es el trabajo del lado del servidor. Si queremos entender esta plataforma, lo primero que debemos hacer es desprendernos de varias ideas que los desarrolladores de Javascript hemos cristalizado a lo largo de los años que llevamos usando ese lenguaje. Para empezar, NodeJS se programa del lado del servidor, lo que indica que los procesos para el desarrollo de software en <Node> se realizan de una manera muy diferente que los de Javascript del lado del cliente."
+    }
+  },
+  {
+    "model": "gm.programa",
+    "pk": 26,
+    "fields": {
+      "materia": 27,
+      "profesor": 4,
+      "titulo": "PROGRAMA I",
+      "objetivo": "Es este curso aprenderemos Adobe Premiere que es uno de los programas de edición de vídeo más utilizados en cine y televisión. Ha sido utilizado en infinidad de películas y todo tipo de producciones audiovisuales por sus excelentes prestaciones, y hoy en día es para muchos la opción más acertada a la hora de elegir un software para editar sus trabajos."
+    }
+  },
+  {
+    "model": "gm.programa",
+    "pk": 27,
+    "fields": {
+      "materia": 28,
+      "profesor": 4,
+      "titulo": "PROGRAMA I",
+      "objetivo": "En este curso aprenderemos el framework opensource PhoneGap. La complejidad que puede significar el hecho de desarrollar aplicaciones para dispositivos móviles con este framework funciona como una solución, y su nombre es PhoneGap, es multiplataforma, nos permite usar las últimas tecnologías web: estamos hablando de HTML5, CSS3 y JavaScript. Ahora los desarrolladores web podemos desarrollar aplicaciones nativas para dispositivos móviles, haciendo uso de algo, que además de ser familiar, puede resultar muy fácil de usar. Con PhoneGap hacemos un solo código cuya lógica de programación está sustentada en el lenguaje de programación web JavaScript, de esta forma no estamos obligados a aprender varios lenguajes de programación para poder migrar el código fuente que se hizo para una plataforma. "
+    }
+  },
+  {
+    "model": "gm.programa",
+    "pk": 29,
+    "fields": {
+      "materia": 29,
+      "profesor": 3,
+      "titulo": "PROGRAMA I",
+      "objetivo": "En este curso aprenderemos Microsoft Project que es una aplicación de gestión de proyectos usada por miles de empresas en todo el mundo. Microsoft Project 2013 ofrece todas las herramientas necesarias para planificar, gestionar y analizar proyectos empresariales."
+    }
+  },
+  {
+    "model": "gm.programa",
+    "pk": 30,
+    "fields": {
+      "materia": 31,
+      "profesor": 2,
+      "titulo": "PROGRAMA I",
+      "objetivo": "En este curso aprenderemos el gestor de bases de datos MySQL. Como se ha mencionado es un sistema de administración de bases de datos (Database Management System, DBMS) para bases de datos relacionales. Así, MySQL no es más que una aplicación que permite gestionar archivos llamados de bases de datos. MySQL, como base de datos relacional, utiliza multiples tablas para almacenar y organizar la información. MySQL fue escrito en C y C++ y destaca por su gran adaptación a diferentes entornos de desarrollo, permitiendo su interactuación con los lenguajes de programación más utilizados como PHP, Perl y Java y su integración en distintos sistemas operativos. También es muy destacable, la condición de open source de MySQL, que hace que su utilización sea gratuita e incluso se pueda modificar con total libertad, pudiendo descargar su código fuente. Esto ha favorecido muy positivamente en su desarrollo y continuas actualizaciones, para hacer de MySQL una de las herramientas más utilizadas por los programadores orientados a Internet."
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 1,
+    "fields": {
+      "programa": 1,
+      "titulo": "1RA PARTE",
+      "horas": 10,
+      "descripcion": "Introducción. Espacio y flujo de trabajo. Configuración e instalación. Interfaz de usuario. Paneles y visores. Metodos abreviados del teclado. Proyectos y composiciones. Importación de material de archivo. Archivos 3D, preparación. Capas y propiedades. Creación y administració de capas. Modo de fusión y estilos de capas. Camaras, luces y puntos de interés."
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 2,
+    "fields": {
+      "programa": 1,
+      "titulo": "2DA PARTE",
+      "horas": 10,
+      "descripcion": "Vistas y previsualizaciones. Modificar y usar vistas. Animación y fotogramas clave. Ajuste, selección y eliminación de fotogramas claves. Edición y desplazamiento. Herramientas de animación. Seguimiento de camara en 3D. Color. Dibujo, pintura y trazado. Texto. "
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 3,
+    "fields": {
+      "programa": 1,
+      "titulo": "3RA PARTE",
+      "horas": 14,
+      "descripcion": "Transparencia y composición. Ajustes prestablecidos de animación y efectos. Marcadores. Memoria, almacenamiento y rendimiento. Expresiones y automatización. Procesamiento y exportación de modelos. Requisitos del sistema. "
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 4,
+    "fields": {
+      "programa": 2,
+      "titulo": "1RA PARTE",
+      "horas": 12,
+      "descripcion": "Conceptos Generales. Entorno de desarrollo Android. Componentes de una aplicación. Interfaz de usuario. Menús y Widgets. Gestión de Preferencias. "
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 5,
+    "fields": {
+      "programa": 2,
+      "titulo": "2DA PARTE",
+      "horas": 12,
+      "descripcion": "Base de datos en Android. Primeros pasos con SQLite. CRUD, consultas y recuperación de registros. Ficheros. Memoria interna y externa SD. Tratamiento de XML.  Notificaciones y Content Providers."
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 6,
+    "fields": {
+      "programa": 2,
+      "titulo": "3RA PARTE",
+      "horas": 12,
+      "descripcion": "Localización Geográfica. Acceso y gestión de Web Services. Servicios SOAP y REST. Tareas en segundo plano, Thread y AsyncTask. Depuración. Tratamiento y gestión de Mapas, Google Maps APIs. Notificaciones Push. Google Cloud Messaging. Implementación del cliente Android. Inicio de sesiones con Google +. "
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 7,
+    "fields": {
+      "programa": 3,
+      "titulo": "1RA PARTE",
+      "horas": 10,
+      "descripcion": "Introducción. Estructura de archivos. Comandos básicos. Ajustes post instalación. "
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 8,
+    "fields": {
+      "programa": 3,
+      "titulo": "2DA PARTE",
+      "horas": 12,
+      "descripcion": "Repositorios e instalación de softwware. Conocimiento de redes. Configuración de host, apache, mysql, etc. Administración de paquetes. Sistemas de archivos. Usuarios y grupos. Permisos. "
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 9,
+    "fields": {
+      "programa": 5,
+      "titulo": "1RA PARTE",
+      "horas": 12,
+      "descripcion": "Introducción.Crear una Tabla.Modificar los Datos de una Tabla.Modificar la Estructura de una Tabla.Estilo de una Tabla.Ordenar una Tabla de Datos.Filtrar una Tabla.Funciones de Bases de Datos.Crear un resumen de Datos.Criterios de Filtrado.Crear una tabla dinámica.Aplicar Filtros a una tabla dinámica.Obtener Promedios de una tabla dinámicaGraficos con tablas dinámicas"
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 10,
+    "fields": {
+      "programa": 5,
+      "titulo": "2DA PARTE",
+      "horas": 12,
+      "descripcion": "Formas de Cambiar un Formato.Definir Formatos Personalizados.Formato Condicional.La Validación de Datos.Enlazar y Consolidar hojas.Excel e Internet"
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 11,
+    "fields": {
+      "programa": 5,
+      "titulo": "3RA PARTE",
+      "horas": 12,
+      "descripcion": "Introducción.Crear una macro automáticamente.Ejecutar una macro.Crear una macro manualmente.Guardar un archivo con macros."
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 12,
+    "fields": {
+      "programa": 6,
+      "titulo": "1RA PARTE",
+      "horas": 12,
+      "descripcion": "Breve historia e introducción básica. Soporte en los navegadores. Funcionamiento básico. Como incluir en un documento XHTML. Glosario básico. Medios. Comentarios. Sintaxis de la definición de cada propiedad. Selectores, básicos y avanzados. Agrupación de reglas. Herencia. Colisiones de estilos. Unidades de medida y colores. "
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 13,
+    "fields": {
+      "programa": 6,
+      "titulo": "2DA PARTE",
+      "horas": 12,
+      "descripcion": "Modelo de Cajas. Anchura y altura. Margen y relleno. Bordes, rellenos de los modelos de cajas. Fondos. Posicionamiento y visualización. Tipos de elementos. Posicionamiento normal, relativos, absolutos, fijos. Texto, tipografía. Estilos básicos y avanzados. "
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 14,
+    "fields": {
+      "programa": 6,
+      "titulo": "3RA PARTE",
+      "horas": 12,
+      "descripcion": "Tratamiento de Listas. Tablas. Formularios. Layouts. Otras propiedades avanzadas. Versión para imprimir. Personalización del cursor. Hack y filtros. Prioridad en las declaraciones. Validador. Recomendaciones generales. Recursos útiles. Extensiones de Firefox. Aplicaciones Web. Construcción de ejercicios prácticos para resumir todas las propiedas estudiadas. "
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 15,
+    "fields": {
+      "programa": 7,
+      "titulo": "1RA PARTE",
+      "horas": 12,
+      "descripcion": "Que es AngularJS y por qué. AngularJs vs JQuery. Primeros pasos, descarga del framework y un primer programa sencillo. Binding y doble binding, desarrollo declarativo."
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 16,
+    "fields": {
+      "programa": 7,
+      "titulo": "2DA PARTE",
+      "horas": 12,
+      "descripcion": "Directivas y expresiones, componentes claves en el desarrollo. Directivas ngInit, ngRepeat y ngClick. Ejemplos prácticos y prácticas habituales, solo con directivas en HTML. Qué son los módulos y que se puede hacer con ellos. Controladores. Variantes para crear controladores. "
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 17,
+    "fields": {
+      "programa": 7,
+      "titulo": "3RA PARTE",
+      "horas": 12,
+      "descripcion": "Otros ejercicios con controllers y directives. Directiva ngClass, alternativas posibles. Ajax con AngularJS para acceso a API. Accediendo a un Web Service que nos ofrece API REST. Trabajo con JSONP mediante service $http. Filtrar, ordenar y otras variables embebidas en la directiva ngRepeat."
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 18,
+    "fields": {
+      "programa": 8,
+      "titulo": "1RA PARTE",
+      "horas": 12,
+      "descripcion": "Novedades. Espacio de trabajo y flujo de trabajo. Administración del sitio. Administración de archivos. Maquetación y diseño. CSS."
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 19,
+    "fields": {
+      "programa": 8,
+      "titulo": "2DA PARTE",
+      "horas": 12,
+      "descripcion": "Contenido de página y activos. Plantillas. XML. jQuery. Establecimiento de vínculos y navegación. Programación. Móvil y multipantalla. Vista previas. "
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 20,
+    "fields": {
+      "programa": 8,
+      "titulo": "3RA PARTE",
+      "horas": 12,
+      "descripcion": "Aplicaciones y formularios web. Varios productos. Javascript. Accesibilidad. Dreamweaver y Creative. Cloud."
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 21,
+    "fields": {
+      "programa": 9,
+      "titulo": "1RA PARTE",
+      "horas": 12,
+      "descripcion": "Introducción. API de Drupal. Aplicando funciones a la API. Views Php. Templates de modulos instalados. Templates que modifican vistas. "
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 22,
+    "fields": {
+      "programa": 9,
+      "titulo": "2DA PARTE",
+      "horas": 12,
+      "descripcion": "Desarrollo de modulos. Arquitectura de modulos. Hooks. Creación de Bloques. Creando ficheros info. Un fichero module. Empezando el module. Implementación de un hook. Formularios, básicos y múltiples. Campos dinámicos. Formulario para subir ficheros. Creando tipos de contenido. Crear identidades propias. Bundles. Esquema de APIs. "
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 23,
+    "fields": {
+      "programa": 10,
+      "titulo": "1RA PARTE",
+      "horas": 12,
+      "descripcion": "Que es BackboneJS. Models, inicialización y validaciones. Vistas y Colecciones. APIs. RESTful persistencia. Eventos on(), off() y trigger(). Routers y backbone.history. Dependencias."
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 24,
+    "fields": {
+      "programa": 10,
+      "titulo": "2DA PARTE",
+      "horas": 12,
+      "descripcion": "Ejercicios prácticos. Modelo y colecciones TODO. Ejemplo de aplicación con Vistas. Una aplicación con RESTful. Interactuando con la interface y gestión de modelos. Instalación de NodeJS, npm y MongoDB. Crear un servidor web simple. Interactuando con el server. Extensiones, marionette y thorax. Problemas y soluciones comunes, validaciones. Desarrollo modular. Paginación. "
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 25,
+    "fields": {
+      "programa": 10,
+      "titulo": "3RA PARTE",
+      "horas": 12,
+      "descripcion": "Creación de un proyecto mas complejo. Configuraciones de app y js. Backbone & JQueryMobile. Flujo de Trabajo entre estos componentes. Testeo de unidad. Jasmine. QUnit. SinonJs. Eventos, métodos y funciones. Scripting mas complejo de interacción con el DOM. Gestión de aplicaciones móviles con JQueryMobile. "
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 26,
+    "fields": {
+      "programa": 11,
+      "titulo": "1RA PARTE",
+      "horas": 12,
+      "descripcion": "Definición de HTML5. Beneficios de HTML5. Principales características. Nuevos elementos de markup y presentación, elementos <video> , <audio> y <canvas>. Formularios Web. Introducción a las APIs de HTML5 y tecnologías de apoyo. Geolocation, Web Workers, Almacenamiento Web. CSS3, Animaciones y transiciones. CSS3, Fondos, bordes, colores RGBa, gradientes, sombreados y esquinas redondeadas. Compatibilidad de navegadores. Creación de una página HTML. Inserción de imágenes en HTML. Creación de vínculos. Tres formas de utilizar los estilos."
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 27,
+    "fields": {
+      "programa": 11,
+      "titulo": "2DA PARTE",
+      "horas": 12,
+      "descripcion": "Introducción a la presentación en pantalla con CSS. El papel del archivo de reset CSS. Introducción a las opciones de presentación de las páginas. Creación de una estructura básica de dos columnas de ancho fijo con CSS. El elemento DIV, asociación de IDs y clases CSS con elementos DIV. Propiedad float de CSS. Creación de una navegación basada en listas con directivas float. Imágenes de fondo con CSS. Uso de las etiquetas HTML5. Diferentes categorías utilizadas para contenidos HTML5. Tipos de contenidos. El nuevo elemento <header>. Esquema de documentos con HTML5. Uso de formularios HTML5, tipos de datos de entrada email y url. Uso de los elementos Video y Audio. "
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 28,
+    "fields": {
+      "programa": 11,
+      "titulo": "3RA PARTE",
+      "horas": 12,
+      "descripcion": "Uso del elemento Canvas. Papel de JavaScript en las aplicaciones HTML5. El DOM (Document Object Model). El elemento Canvas, ventajas y diseño gráfico. Trazos, rectángulos, líneas, etc. Uso de arrays de datos y creación de animaciones con Canvas y Animation. Uso de transformaciones y bucles de dibujo. Funciones Drag y Drop de HTML5, ventajas y compatibilidad entre distintos navegadores. Uso de la función preventDefault. Eventos dragenter y dragover. El atributo ondragstart.cUso de la función setData."
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 29,
+    "fields": {
+      "programa": 12,
+      "titulo": "1RA PARTE",
+      "horas": 12,
+      "descripcion": "Introducción. Configuración e instalación. Comenzando un proyecto Django. Settings configurations. URL configuración. Creando plantillas. Configuración inicial de base de datos. Creando nuestra primera página con el CMS. Adicionando contenido, efectos, plantillas, elementos. Renderiando menús. "
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 30,
+    "fields": {
+      "programa": 12,
+      "titulo": "2DA PARTE",
+      "horas": 12,
+      "descripcion": "CMS Plugins. El primer plugin. Plugin Class. Plantilla. CMS Apps. Instalando un blog app. Extendiendo la barra de herramientas. Adicionando elementos. Insertando elementos a través de las vistas. "
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 31,
+    "fields": {
+      "programa": 12,
+      "titulo": "3RA PARTE",
+      "horas": 12,
+      "descripcion": "Configuraciones avanzadas. CMS Permissions. Caché. Navegación. Algunos ejemplos prácticos de integración de aprendizaje. Mostrar o esconder menús. Propiedades. Soft Roots. Modifcando y extendiendo menús. Ficheros. Google Maps. Enlaces. Fotos. Snippet. Textos. Videos. "
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 32,
+    "fields": {
+      "programa": 13,
+      "titulo": "1RA PARTE",
+      "horas": 12,
+      "descripcion": "Introducción. Prestaciones. Limitaciones. Modelo orientado a objetos. Objetos e instancias. Propiedades. Encapsulamiento. Herencia. Agregración. Persistencia. "
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 33,
+    "fields": {
+      "programa": 13,
+      "titulo": "2DA PARTE",
+      "horas": 12,
+      "descripcion": "Acceso a un servidor PostgreSQL. Conexión y cliente psql. Introducción a las sentencias. Expresiones y variables. Proceso de Lotes. Usar la base de datos. Creación y manipulación de tablas. Herencia y OID. Restricciones. Indexación. Consultas de información. Tipos de datos. "
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 34,
+    "fields": {
+      "programa": 13,
+      "titulo": "3RA PARTE",
+      "horas": 12,
+      "descripcion": "Manipulación de datos. Consultas. Actualizaciones. Transacciones. Funciones y disparadores. Variables y sentencias. Administración. Internacionalización. Arquitectura. Creación de tipos. Privilegios. Plantillas. Copias de seguridad. Reindexación. Ficheros de registros. Vacumm. Cliente gráfico PgAdmin3. "
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 35,
+    "fields": {
+      "programa": 14,
+      "titulo": "1RA PARTE",
+      "horas": 12,
+      "descripcion": "Introducción. El compilador javac. Visualizador de Applets. Inteprete Java, integración con Eclipse y Netbeans. Conceptos basicos de programación orientada a objetos. Variables y tipos de datos. Operadores y expresiones. Control de flujo. Arrays y cadenas. Objetos y Clases. Constructors"
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 36,
+    "fields": {
+      "programa": 14,
+      "titulo": "2DA2DA PARTE",
+      "horas": 12,
+      "descripcion": "Clase String. Clase Integer. Atributos del Programa. Notas del SDK. Recursos del sistema. Clase System. Recolección de basura. Manejo de Errores utilizando excepciones. Bloques try, catch y finally. Threads de control. El cuerpo de un thread. Programas multihilos. Canales I/O, streams, ficheros. Applets, anatomia y descripción. "
+    }
+  },
+  {
+    "model": "gm.tema",
+    "pk": 37,
+    "fields": {
+      "programa": 14,
+      "titulo": "3RA PARTE",
+      "horas": 12,
+      "descripcion": "Comunicación con otros programas. Crear una interface de usuario. Ejecutar sonidos. Clases AWT. Anatomia de un programa basado en GUI. Herencia. Dibujo y manejo de eventos. Realizar animaciones, gráficos, imágenes, texto. Gráficos 2D, formas e imágenes. Trabajo en Red. Datagramas y Beans. Servlets. Internacionalización. Ficheros JARy metodos nativos. Acceso a base de datos JDBC."
+    }
+  }
+
+]
